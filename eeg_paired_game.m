@@ -1,6 +1,6 @@
-player1 = pop_loadset('filename','0417howard3.set','filepath','/Users/Plack/Desktop/');
-player2 = pop_loadset('filename','0417irene3.set','filepath','/Users/Plack/Desktop/');
-merged  = pop_loadset('filename','merged.set','filepath','/Users/Plack/Desktop/');
+player1 = pop_loadset('filename','0417p1.set','filepath','PATH');
+player2 = pop_loadset('filename','0417p2.set','filepath','PATH');
+merged  = pop_loadset('filename','merged.set','filepath','PATH');
 ch = 7;
 p1_e2 = pop_epoch( player1, {  '2'  }, [-1  2], 'epochinfo', 'yes');
 p2_e2 = pop_epoch( player2, {  '2'  }, [-1  2], 'epochinfo', 'yes');
